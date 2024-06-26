@@ -1,7 +1,12 @@
 # pi-gen
 
-Tool used to create Raspberry Pi OS images. (Previously known as Raspbian).
+Tool used to create AmpliPi images. This is largely a fork of [pi-gen](https://github.com/RPi-Distro/pi-gen), a tool to create Raspberry Pi OS images. (Previously known as Raspbian). The vast majority of the documentation has been left in place, and we strive to keep changes to a minimum so porting to later or different distros will not be so difficult.
 
+The only AmpliPi specific change to the below documentation is that to build version 100.0.0, you must:
+```
+export AMPLIPI_VERSION=100.0.0
+```
+possibly within the `config` file, if you're using `build-docker.sh` (which I have been.) The build takes ~1hr.
 
 ## Dependencies
 

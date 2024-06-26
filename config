@@ -1,0 +1,13 @@
+IMG_NAME=AmpliPi
+RELEASE=buster
+DEPLOY_COMPRESSION=gz
+TARGET_HOSTNAME=amplipi
+KEYBOARD_KEYMAP=us
+KEYBOARD_LAYOUT='English (US)'
+TIMEZONE_DEFAULT='America/New_York'
+LOCALE_DEFAULT='en_US.UTF-8'
+FIRST_USER_PASS=raspberry
+ENABLE_SSH=1
+REPO=AmpliPi
+# You must define this yourself during build!
+#AMPLIPI_VERSION=100

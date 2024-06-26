@@ -1,4 +1,6 @@
-hunspell-en-gb
-hyphen-en-gb
-wamerican
-wbritish
+screen
+tmux
+vim
+emacs
+silversearcher-ag
+nmap
